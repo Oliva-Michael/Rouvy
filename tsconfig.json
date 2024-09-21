@@ -1,0 +1,19 @@
+{
+	"include": ["cypress/**/*", "scripts/**/*", "cypress/@types"],
+	"compilerOptions": {
+		"strict": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"lib": [
+			"dom",
+			"es2015"
+		],
+		"types": [
+			"node",
+			"cypress",
+		],
+		"skipLibCheck": true,
+		"target": "es5",
+		"noEmit": true
+	},
+}
